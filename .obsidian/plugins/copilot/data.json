@@ -1,0 +1,309 @@
+{
+  "isPlusUser": false,
+  "plusLicenseKey": "",
+  "openAIApiKey": "",
+  "openAIOrgId": "",
+  "huggingfaceApiKey": "",
+  "cohereApiKey": "",
+  "anthropicApiKey": "",
+  "azureOpenAIApiKey": "",
+  "azureOpenAIApiInstanceName": "",
+  "azureOpenAIApiDeploymentName": "",
+  "azureOpenAIApiVersion": "",
+  "azureOpenAIApiEmbeddingDeploymentName": "",
+  "googleApiKey": "",
+  "openRouterAiApiKey": "",
+  "mistralApiKey": "",
+  "deepseekApiKey": "",
+  "defaultChainType": "llm_chain",
+  "defaultModelKey": "gpt-4o|openai",
+  "embeddingModelKey": "text-embedding-3-small|openai",
+  "temperature": 0.1,
+  "maxTokens": 1000,
+  "contextTurns": 15,
+  "userSystemPrompt": "",
+  "openAIProxyBaseUrl": "",
+  "openAIEmbeddingProxyBaseUrl": "",
+  "stream": true,
+  "defaultSaveFolder": "copilot-conversations",
+  "defaultConversationTag": "copilot-conversation",
+  "autosaveChat": false,
+  "defaultOpenArea": "view",
+  "customPromptsFolder": "copilot-custom-prompts",
+  "indexVaultToVectorStore": "ON MODE SWITCH",
+  "qaExclusions": "",
+  "qaInclusions": "",
+  "chatNoteContextPath": "",
+  "chatNoteContextTags": [],
+  "enableIndexSync": true,
+  "debug": false,
+  "enableEncryption": false,
+  "maxSourceChunks": 3,
+  "groqApiKey": "",
+  "activeModels": [
+    {
+      "name": "copilot-plus-flash",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "plusExclusive": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-4o",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gpt-4o-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "claude-3-5-sonnet-latest",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true,
+      "core": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "o1-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ]
+    },
+    {
+      "name": "o3-mini",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ]
+    },
+    {
+      "name": "claude-3-5-haiku-latest",
+      "provider": "anthropic",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "command-r",
+      "provider": "cohereai",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "command-r-plus",
+      "provider": "cohereai",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "gemini-2.0-pro-exp",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "gemini-2.0-flash",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "vision"
+      ]
+    },
+    {
+      "name": "azure-openai",
+      "provider": "azure openai",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "deepseek-chat",
+      "provider": "deepseek",
+      "enabled": true,
+      "isBuiltIn": true
+    },
+    {
+      "name": "deepseek-reasoner",
+      "provider": "deepseek",
+      "enabled": true,
+      "isBuiltIn": true,
+      "capabilities": [
+        "reasoning"
+      ]
+    }
+  ],
+  "activeEmbeddingModels": [
+    {
+      "name": "copilot-plus-small",
+      "provider": "copilot-plus",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true
+    },
+    {
+      "name": "copilot-plus-large",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "believerExclusive": true,
+      "dimensions": 1024
+    },
+    {
+      "name": "copilot-plus-multilingual",
+      "provider": "copilot-plus-jina",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true,
+      "plusExclusive": true,
+      "dimensions": 512
+    },
+    {
+      "name": "text-embedding-3-small",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true,
+      "core": true
+    },
+    {
+      "name": "text-embedding-3-large",
+      "provider": "openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true
+    },
+    {
+      "name": "embed-multilingual-light-v3.0",
+      "provider": "cohereai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true
+    },
+    {
+      "name": "text-embedding-004",
+      "provider": "google",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true
+    },
+    {
+      "name": "azure-openai",
+      "provider": "azure openai",
+      "enabled": true,
+      "isBuiltIn": true,
+      "isEmbeddingModel": true
+    }
+  ],
+  "embeddingRequestsPerMin": 90,
+  "embeddingBatchSize": 16,
+  "disableIndexOnMobile": true,
+  "showSuggestedPrompts": true,
+  "showRelevantNotes": true,
+  "numPartitions": 1,
+  "promptUsageTimestamps": {},
+  "defaultConversationNoteName": "{$topic}@{$date}_{$time}",
+  "inlineEditCommands": [
+    {
+      "name": "Fix grammar and spelling",
+      "prompt": "<instruction>Fix the grammar and spelling of the text below. Preserve all formatting, line breaks, and special characters. Do not add or remove any content. Return only the corrected text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Translate to Chinese",
+      "prompt": "<instruction>Translate the text below into Chinese:\n    1. Preserve the meaning and tone\n    2. Maintain appropriate cultural context\n    3. Keep formatting and structure\n    Return only the translated text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Summarize",
+      "prompt": "<instruction>Create a bullet-point summary of the text below. Each bullet point should capture a key point. Return only the bullet-point summary.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Simplify",
+      "prompt": "<instruction>Simplify the text below to a 6th-grade reading level (ages 11-12). Use simple sentences, common words, and clear explanations. Maintain the original key concepts. Return only the simplified text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Emojify",
+      "prompt": "<instruction>Add relevant emojis to enhance the text below. Follow these rules:\n    1. Insert emojis at natural breaks in the text\n    2. Never place two emojis next to each other\n    3. Keep all original text unchanged\n    4. Choose emojis that match the context and tone\n    Return only the emojified text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Make shorter",
+      "prompt": "<instruction>Reduce the text below to half its length while preserving these elements:\n    1. Main ideas and key points\n    2. Essential details\n    3. Original tone and style\n    Return only the shortened text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Make longer",
+      "prompt": "<instruction>Expand the text below to twice its length by:\n    1. Adding relevant details and examples\n    2. Elaborating on key points\n    3. Maintaining the original tone and style\n    Return only the expanded text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": true
+    },
+    {
+      "name": "Generate table of contents",
+      "prompt": "<instruction>Generate a hierarchical table of contents for the text below. Use appropriate heading levels (H1, H2, H3, etc.). Include page numbers if present. Return only the table of contents.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": false
+    },
+    {
+      "name": "Generate glossary",
+      "prompt": "<instruction>Create a glossary of important terms, concepts, and phrases from the text below. Format each entry as \"Term: Definition\". Sort entries alphabetically. Return only the glossary.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": false
+    },
+    {
+      "name": "Remove URLs",
+      "prompt": "<instruction>Remove all URLs from the text below. Preserve all other content and formatting. URLs may be in various formats (http, https, www). Return only the text with URLs removed.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": false
+    },
+    {
+      "name": "Rewrite as tweet",
+      "prompt": "<instruction>Rewrite the text below as a single tweet with these requirements:\n    1. Maximum 280 characters\n    2. Use concise, impactful language\n    3. Maintain the core message\n    Return only the tweet text.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": false
+    },
+    {
+      "name": "Rewrite as tweet thread",
+      "prompt": "<instruction>Convert the text below into a Twitter thread following these rules:\n    1. Each tweet must be under 240 characters\n    2. Start with \"THREAD START\" on its own line\n    3. Separate tweets with \"\n\n---\n\n\"\n    4. End with \"THREAD END\" on its own line\n    5. Make content engaging and clear\n    Return only the formatted thread.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": false
+    },
+    {
+      "name": "Explain like I am 5",
+      "prompt": "<instruction>Explain the text below in simple terms that a 5-year-old would understand:\n    1. Use basic vocabulary\n    2. Include simple analogies\n    3. Break down complex concepts\n    Return only the simplified explanation.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": false
+    },
+    {
+      "name": "Rewrite as press release",
+      "prompt": "<instruction>Transform the text below into a professional press release:\n    1. Use formal, journalistic style\n    2. Include headline and dateline\n    3. Follow inverted pyramid structure\n    Return only the press release format.</instruction>\n\n<text>{copilot-selection}</text>",
+      "showInContextMenu": false
+    }
+  ]
+}
